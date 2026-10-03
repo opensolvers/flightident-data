@@ -2,6 +2,8 @@
 
 Static files the Flightident app reads. This repository does not replace GoDrone or a NOTAM.
 
+Sources, download dates and licences are kept in [BRONNEN.md](BRONNEN.md).
+
 ## Netherlands
 
 `nl/uas-zones.json` is the UAS geographical zone set for the Amsterdam FIR, in EUROCAE ED-269 JSON.
