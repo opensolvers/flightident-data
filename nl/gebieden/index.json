@@ -1,0 +1,80 @@
+{
+  "datasets": [
+    {
+      "file": "nl/gebieden/verboden.geojson",
+      "name": "Verboden voor al het luchtverkeer",
+      "count": 10,
+      "bytes": 27140,
+      "rules": [
+        "Alle vluchten zijn hier verboden",
+        "Alle vluchten zijn hier verboden op 4 mei"
+      ]
+    },
+    {
+      "file": "nl/gebieden/beveiligd.geojson",
+      "name": "Beveiligde gebieden en vitale processen",
+      "count": 338,
+      "bytes": 517075,
+      "rules": [
+        "OPEN cat. vluchten zijn hier verboden SPEC cat. vluchten vereisen een privilege op de exploitatievergunning"
+      ]
+    },
+    {
+      "file": "nl/gebieden/industrie.geojson",
+      "name": "Industriegebieden met risico op zware ongevallen",
+      "count": 270,
+      "bytes": 462851,
+      "rules": [
+        "OPEN cat. vluchten zijn hier verboden SPEC cat. vluchten vereisen een privilege op de exploitatievergunning"
+      ]
+    },
+    {
+      "file": "nl/gebieden/vliegvelden.geojson",
+      "name": "Nabijheid van vliegvelden",
+      "count": 43,
+      "bytes": 73506,
+      "rules": [
+        "OPEN cat. vluchten zijn hier verboden SPEC cat. vluchten vereisen een privilege op de exploitatievergunning",
+        "Vluchten in de OPEN categorie zijn hier niet toegestaan"
+      ]
+    },
+    {
+      "file": "nl/gebieden/defensie.geojson",
+      "name": "Defensiegebieden",
+      "count": 67,
+      "bytes": 90400,
+      "rules": [
+        "Alle vuchten zijn hier verboden tenzij er toestemming is gegeven door de Militaire luchverkeersdienstverlener",
+        "Vluchten in de OPEN categorie zijn hier niet toegestaan"
+      ]
+    },
+    {
+      "file": "nl/gebieden/helikopter.geojson",
+      "name": "Landingsplaatsen van trauma- en reddingshelikopters",
+      "count": 23,
+      "bytes": 39193,
+      "rules": [
+        "Vluchten in de OPEN categorie zijn hier niet toegestaan"
+      ]
+    },
+    {
+      "file": "nl/gebieden/laagvlieg.geojson",
+      "name": "Laagvlieggebieden en blusoefengebieden",
+      "count": 23,
+      "bytes": 26658,
+      "rules": [
+        "OPEN A1/2 toegestaan tot max 30m hoogte boven de grond; A3 niet toegestaan"
+      ]
+    },
+    {
+      "file": "nl/gebieden/natura2000.geojson",
+      "name": "Natura 2000",
+      "count": 209,
+      "bytes": 21641418,
+      "rules": [
+        "Grenzen van Natura 2000-gebieden. Geen UAS-zone uit het AIP-bestand."
+      ],
+      "source": "PDOK / RVO"
+    }
+  ]
+}
